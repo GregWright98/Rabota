@@ -22,6 +22,7 @@
 автор за свою жизнь может написать несколько книг.
 
 Напишите SQL-запрос, который выведет авторов, написавших не более 6 книг.
+
 CREATE TABLE avtors(idAvtor int, Name varchar(100) NOT null, PRIMARY KEY(idAvtor))
 CREATE TABLE books(idBook int, Book varchar(100) NOT null, idAvtor int NOT null, idSoAvtor1 int, idSoAvtor2 int, idSoAvtor3 int, idSoAvtor4 int, idSoAvtor5 int, PRIMARY KEY(idBook))
 
